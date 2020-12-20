@@ -713,7 +713,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.11.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4":
   version "7.12.5"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.12.5.tgz?cache=0&sync_timestamp=1604441208794&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   dependencies:
@@ -783,6 +783,47 @@
     cssnano "^4.0.0"
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
+
+"@jiaminghi/bezier-curve@*":
+  version "0.0.9"
+  resolved "https://registry.npm.taobao.org/@jiaminghi/bezier-curve/download/@jiaminghi/bezier-curve-0.0.9.tgz#5196aca93c8b061a612b4c3eabcedf9490cef6ee"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
+"@jiaminghi/c-render@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.npm.taobao.org/@jiaminghi/c-render/download/@jiaminghi/c-render-0.4.3.tgz#982ebd8f71b443bb9507834227834973ebd9b6d8"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@jiaminghi/bezier-curve" "*"
+    "@jiaminghi/color" "*"
+    "@jiaminghi/transition" "*"
+
+"@jiaminghi/charts@*":
+  version "0.2.18"
+  resolved "https://registry.npm.taobao.org/@jiaminghi/charts/download/@jiaminghi/charts-0.2.18.tgz#63ded95200789fc1a1fd04b7fd9e56f58d22d90f"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@jiaminghi/c-render" "^0.4.3"
+
+"@jiaminghi/color@*":
+  version "0.1.1"
+  resolved "https://registry.npm.taobao.org/@jiaminghi/color/download/@jiaminghi/color-0.1.1.tgz#bddf9012dfce6982d3829a983ffeb91ee9dda7b6"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
+"@jiaminghi/data-view@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.npm.taobao.org/@jiaminghi/data-view/download/@jiaminghi/data-view-2.10.0.tgz#2146d8fc71b9f24be808238ca050ddb7a4c8949f"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@jiaminghi/charts" "*"
+
+"@jiaminghi/transition@*":
+  version "1.1.11"
+  resolved "https://registry.npm.taobao.org/@jiaminghi/transition/download/@jiaminghi/transition-1.1.11.tgz#576d8af092434b34201eba5eaecc79dd33c8ad8c"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -2329,7 +2370,7 @@ core-js-compat@^3.6.5, core-js-compat@^3.8.0:
     browserslist "^4.15.0"
     semver "7.0.0"
 
-core-js@^3.6.5:
+core-js@^3.4.4, core-js@^3.6.5:
   version "3.8.1"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.8.1.tgz?cache=0&sync_timestamp=1607215964031&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-3.8.1.tgz#f51523668ac8a294d1285c3b9db44025fda66d47"
 
@@ -2818,6 +2859,13 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
+
+echarts@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npm.taobao.org/echarts/download/echarts-5.0.0.tgz?cache=0&sync_timestamp=1606890675689&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fecharts%2Fdownload%2Fecharts-5.0.0.tgz#66ec0ea47e3c93b2aadfbb2d719869932ad13ce0"
+  dependencies:
+    tslib "1.10.0"
+    zrender "5.0.1"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -5940,6 +5988,10 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
 
+resize-detector@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.npm.taobao.org/resize-detector/download/resize-detector-0.1.10.tgz#1da3f961aa5f914ccbcfd3752d52fd45beeb692c"
+
 resolve-cwd@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/resolve-cwd/download/resolve-cwd-2.0.0.tgz#00a9f7387556e27038eae232caa372a6a59b665a"
@@ -6759,6 +6811,10 @@ ts-pnp@^1.1.6:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/ts-pnp/download/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
 
+tslib@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.10.0.tgz?cache=0&sync_timestamp=1602286603545&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
+
 tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1602286603545&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
@@ -6998,6 +7054,14 @@ verror@1.10.0:
 vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
+
+vue-echarts@^5.0.0-beta.0:
+  version "5.0.0-beta.0"
+  resolved "https://registry.npm.taobao.org/vue-echarts/download/vue-echarts-5.0.0-beta.0.tgz#438dd4b0fc5ccea281709c1f7c6321b05352bdf4"
+  dependencies:
+    core-js "^3.4.4"
+    lodash "^4.17.15"
+    resize-detector "^0.1.10"
 
 vue-eslint-parser@^7.0.0:
   version "7.3.0"
@@ -7356,3 +7420,9 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+zrender@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npm.taobao.org/zrender/download/zrender-5.0.1.tgz?cache=0&sync_timestamp=1605884445437&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fzrender%2Fdownload%2Fzrender-5.0.1.tgz#cc377136a9d00d0a177ca7f65c32aed2901928da"
+  dependencies:
+    tslib "1.10.0"

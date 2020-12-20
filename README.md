@@ -1,29 +1,5 @@
-# big-screen-demo
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用说明
+### 运行必须条件：
+  1、node环境 (Node.js 8.9 + )
+### 目录结构说明：
+  1、
